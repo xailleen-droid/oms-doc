@@ -1,0 +1,50 @@
+root: ./
+
+structure:
+  readme: README.md
+  summary: SUMMARY.md
+
+language: zh-CN
+
+title: OMS 社区版文档
+
+description: OceanBase 迁移服务（OceanBase Migration Service，OMS）社区版文档
+
+plugins:
+  - search
+  - sharing
+  - code
+  - copy-code-button
+  - expandable-chapters
+  - back-to-top-button
+  - page-toc
+  - splitter
+
+pluginsConfig:
+  code:
+    copyButtons: true
+  page-toc:
+    selector: ".markdown-section h1, .markdown-section h2, .markdown-section h3"
+    depth: 3
+    title: "目录"
+
+variables:
+  version: "4.0-CE"
+
+styles:
+  website: styles/website.css
+  pdf: styles/pdf.css
+  epub: styles/epub.css
+  mobi: styles/mobi.css
+
+pdf:
+  pageNumbers: true
+  fontSize: 12
+  fontFamily: "Arial"
+  paperSize: "a4"
+  margin:
+    right: 62
+    left: 62
+    top: 56
+    bottom: 56
+

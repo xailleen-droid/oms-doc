@@ -1,0 +1,13 @@
+# OMS 社区版文档
+
+OceanBase 迁移服务（OceanBase Migration Service，OMS）社区版是 OceanBase 提供的一种支持同构或异构数据源与 OceanBase 数据库之间进行数据交互的服务，具备在线迁移存量数据和实时同步增量数据的能力。
+
+OMS 社区版提供可视化的集中管控平台，您只需要进行简单的配置即可实时迁移数据。OMS 社区版旨在帮助您低风险、低成本、高效率地实现同构或异构数据库向 OceanBase 进行实时数据迁移和数据同步。
+
+|                         快速入门                          |                         用户指南                         |                         运维手册                          |
+|-------------------------------------------------------|------------------------------------------------------|-------------------------------------------------------|
+| [OMS 社区版简介](zh-CN/200.product-introduction/100.what-is-the-community-edition-of-oms.md) | [管理控制台](zh-CN/500.oms-console/100.log-on-to-the-oms-console.md)| [运维概述](zh-CN/900.o-m-manual/100.o-m-overview.md)   |
+| [数据迁移流程](zh-CN/300.quick-start/100.data-migration-process.md)| [数据源管理](zh-CN/800.create-and-manage-data-sources/200.manage-data-sources/200.view-data-source-information.md) | [机器](zh-CN/900.o-m-manual/300.server/100.view-server-information.md)   |
+| [数据同步流程](zh-CN/300.quick-start/200.data-synchronization-process.md) | [数据迁移](zh-CN/600.data-migration/100.data-migration-overview.md)  | [组件](zh-CN/900.o-m-manual/400.components/100.store/100.create-a-store.md)  |
+| [告警参考](zh-CN/1200.reference-guide/300.alarm-reference/100.oms-host-down.md)   | [数据同步](zh-CN/700.data-synchronization/100.data-synchronization-overview.md)| [运维工单](zh-CN/900.o-m-manual/500.o-m-tickets/100.view-details-of-an-o-m-ticket.md) |
+|[API 参考](zh-CN/1200.reference-guide/100.api-reference/200.obtain-the-status-of-a-migration-project.md)|[系统管理](zh-CN/1000.system-management/100.permission-management/100.permission-overview.md)| [组件参数说明](zh-CN/1100.o-m-guide/900.checker-parameters.md) |
